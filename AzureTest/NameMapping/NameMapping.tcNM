@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{DD4EE9A1-461A-438E-8F64-C91460477FD8}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{03D6A1E2-74C6-44C7-A895-3F42B2F2D03D}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{E1EBFE15-0FFB-4512-882E-F38E4BC995AB}">
+								<Image FileName="1773930838" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSwagLabs" Key="{B803D45F-A59A-488F-82DF-610234631CF6}">
+								<Image FileName="1773930838" Left="6" Top="156" Right="1854" Bottom="1002" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.saucedemo.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="submitbuttonLogin" Key="{2D144A71-7454-4296-A996-D8CB929D38AD}">
+										<Image FileName="-797755997" Left="700" Top="559" Right="1138" Bottom="632" />
+										<TypeInfo Item0="{0DDAE0EF-C258-470B-928D-5926D7E3A2BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;login-button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#login-button" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;login-button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;submit-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login_button_container&apos;]//form/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUserName" Key="{D7EB4220-9C41-4E3A-B837-870913C947D8}">
+										<Image FileName="102855836" Left="700" Top="336" Right="1138" Bottom="395" />
+										<TypeInfo Item0="{216A1005-9DCF-452C-BD91-F5944C3530F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#user-name" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;user-name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;input_error&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login_button_container&apos;]//div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{DCFA4685-8976-4F01-A498-499ACACF8913}">
+										<Image FileName="726770421" Left="700" Top="417" Right="1138" Bottom="476" />
+										<TypeInfo Item0="{216A1005-9DCF-452C-BD91-F5944C3530F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input[contains(@class, &apos;input_error&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login_button_container&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSwagLabs2" Key="{464B9A3E-CAD2-495E-927D-745EC6048870}">
+								<Image FileName="1773930838" Left="6" Top="156" Right="1854" Bottom="1002" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.saucedemo.com/inventory.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeProducts" Key="{AEC6AE17-EB4B-4392-8D6A-1CBB02DC49DD}">
+										<Image FileName="989087090" Left="36" Top="196" Right="151" Bottom="268" />
+										<TypeInfo Item0="{FC67CDD1-1F9B-4DDB-96CE-AE67136A5C1A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Products&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;header_container&apos;]//div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{03D6A1E2-74C6-44C7-A895-3F42B2F2D03D}">
+			<Child Name="BrowserWindow" Owner="{E1EBFE15-0FFB-4512-882E-F38E4BC995AB}" />
+			<Child Name="pageSwagLabs" Owner="{B803D45F-A59A-488F-82DF-610234631CF6}">
+				<Child Name="submitbuttonLogin" Owner="{2D144A71-7454-4296-A996-D8CB929D38AD}" />
+				<Child Name="textboxUserName" Owner="{D7EB4220-9C41-4E3A-B837-870913C947D8}" />
+				<Child Name="passwordboxPassword" Owner="{DCFA4685-8976-4F01-A498-499ACACF8913}" />
+			</Child>
+			<Child Name="pageSwagLabs2" Owner="{464B9A3E-CAD2-495E-927D-745EC6048870}">
+				<Child Name="textnodeProducts" Owner="{AEC6AE17-EB4B-4392-8D6A-1CBB02DC49DD}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

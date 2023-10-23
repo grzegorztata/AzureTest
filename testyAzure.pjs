@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{EF9C6019-D850-4850-A9B2-A7D002E111F9}">
+	<children>
+		<child name="AzureTest" key="{E8A1B99D-1353-4132-98EA-133E1612E39E}" path="AzureTest\AzureTest.mds" />
+	</children>
+	<testItems key="{505D1327-3AC8-43FA-851D-C918CB3A5256}">
+		<children>
+			<testItem key="{E8A1B99D-1353-4132-98EA-133E1612E39E}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{D6358196-72C3-4E9D-9628-1B25DF4EE8FF}" />
+	<analysis key="{261720D7-05A8-408C-90AE-927B3D258D83}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
